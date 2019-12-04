@@ -1,0 +1,39 @@
+{
+  "store.home": {
+    "blocks": ["rebuy", "carousel#home", "flex-layout.row#deals", "shelf"],
+    "parent": {
+      "challenge": "challenge.address"
+    }
+  },
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://grocery1.vteximg.com.br/assets/vtex.file-manager-graphql/images/BUY 3 PAY 2 (1) (1)___e7db6e39a7c4ba8c987c78d3183a906d.png",
+          "mobileImage": "https://grocery1.vteximg.com.br/assets/vtex.file-manager-graphql/images/BUY 3 PAY 2 (1) (1)___e7db6e39a7c4ba8c987c78d3183a906d.png",
+          "customInternalURL": "/garofalo?map=ft&order=OrderByTopSaleDESC"
+        },
+        {
+          "image": "https://grocery1.vteximg.com.br/assets/vtex.file-manager-graphql/images/BARILLA (1)___bbdea67cc8c55ef48372bfbc92666405.png",
+          "mobileImage": "https://grocery1.vteximg.com.br/assets/vtex.file-manager-graphql/images/BARILLA (1)___bbdea67cc8c55ef48372bfbc92666405.png",
+          "customInternalURL": "/barilla?map=ft&order=OrderByTopSaleDESC"
+        }
+      ],
+      "height": 720,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  "shelf": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "paginationDotsVisibility": "mobileOnly",
+      "productList": {
+        "maxItems": 15,
+        "itemsPerPage": 5,
+        "arrows": true
+      }
+    }
+  }
+}
